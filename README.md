@@ -56,8 +56,10 @@ Use it for personal kanban, side projects, coursework, or lightweight team workf
   - Docker (for deployment)
   - GitHub Actions (CI/CD)
 
+---
+
 <details>
-  <summary>📂 Project Structure</summary>
+  <summary><h3>📂 Project Structure<h3/></summary>
 
 ```text
 ├── .idea/
