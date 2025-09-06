@@ -119,7 +119,8 @@ Use it for personal kanban, side projects, coursework, or lightweight team workf
     ├── appsettings.Development.json
     ├── appsettings.json
     └── taskmanager.db
-<details>```
+<details>
+```
 
 ## 📌 Roadmap
 ### Phase 1 – Backend
