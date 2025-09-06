@@ -140,5 +140,5 @@ Use it for personal kanban, side projects, coursework, or lightweight team workf
     ├── appsettings.json
     └── taskmanager.db
 ```
-<details>
+</details>
 ---
