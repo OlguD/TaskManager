@@ -57,6 +57,26 @@ Use it for personal kanban, side projects, coursework, or lightweight team workf
   - GitHub Actions (CI/CD)
 
 ---
+## 📌 Roadmap
+### Phase 1 – Backend
+- [x] User authentication (JWT)
+- [x] Entity models (User, Project, Board, Card)
+- [x] CRUD endpoints
+- [ ] Unit tests
+
+### Phase 2 – Frontend
+- [ ] Login/Register screens
+- [ ] Project listing & creation
+- [ ] Board & card screens
+- [ ] Drag & Drop support
+
+### Phase 3 – Advanced Features
+- [ ] Deadline reminder notifications
+- [ ] Project sharing (multi-user support)
+- [ ] Docker deployment
+
+
+---
 
 <details>
   <summary><h3>📂 Project Structure<h3/></summary>
@@ -119,23 +139,6 @@ Use it for personal kanban, side projects, coursework, or lightweight team workf
     ├── appsettings.Development.json
     ├── appsettings.json
     └── taskmanager.db
-<details>
 ```
-
-## 📌 Roadmap
-### Phase 1 – Backend
-- [x] User authentication (JWT)
-- [x] Entity models (User, Project, Board, Card)
-- [x] CRUD endpoints
-- [ ] Unit tests
-
-### Phase 2 – Frontend
-- [ ] Login/Register screens
-- [ ] Project listing & creation
-- [ ] Board & card screens
-- [ ] Drag & Drop support
-
-### Phase 3 – Advanced Features
-- [ ] Deadline reminder notifications
-- [ ] Project sharing (multi-user support)
-- [ ] Docker deployment  
+<details>
+---
