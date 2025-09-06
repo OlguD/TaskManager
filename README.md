@@ -1,8 +1,29 @@
 <p align="center">
-  <img src="https://github.com/OlguD/TaskManager/blob/main/assets/taskmanagerlogo.png" alt="TaskManager Logo" width="200"/>
+  <img src="https://github.com/OlguD/TaskManager/blob/main/assets/taskmanagerlogo.png" alt="TaskManager Logo" width="400"/>
 </p>
 
-This project allows users to manage tasks and projects efficiently. 
+## Overview
+
+**TaskManager** is a lightweight, self-hosted project and task management application inspired by Trello. It helps individuals and small teams plan, track, and deliver work using a simple, familiar **Projects → Boards → Cards** hierarchy.
+
+- **Projects** act as the top-level container for related work.
+- **Boards** within a project represent workflow stages (e.g., *Todo*, *In Progress*, *Done*).
+- **Cards** are actionable tasks that live inside boards and move across stages as work progresses.
+
+The app focuses on clarity and speed: create a project, define a few boards, add cards with titles/descriptions/due dates, then **drag & drop** cards to reflect real progress. The goal is to provide a minimal setup with just the right features so you can get organized in minutes—not hours.
+
+### Why build it?
+- **Practical & portfolio-ready:** Demonstrates real-world CRUD, authentication, data modeling, and clean architecture with C#.
+- **Team-friendly:** Designed to be extended with collaboration features (assignees, comments, labels, checklists).
+- **Developer-first:** Clear REST endpoints, predictable responses, and a layered structure (Controllers → Repositories → Services) that’s easy to test and evolve.
+
+### How it’s built
+- **Backend:** ASP.NET Core Web API with EF Core (SQLite for development, PostgreSQL for production). Authentication uses **hashed passwords + JWT**. Migrations are included for repeatable setups.
+- **Frontend:** React + Tailwind CSS for a responsive UI, with a drag-and-drop library to manage cards intuitively.
+- **Extensibility (planned):** real-time updates via SignalR, reminders/notifications for upcoming due dates, multi-user project sharing, and Dockerized deployments.
+
+Use it for personal kanban, side projects, coursework, or lightweight team workflows. Keep the core simple, then grow features as your needs evolve.
+ 
 
 ## 🚀 Supported Features
 
@@ -36,7 +57,8 @@ This project allows users to manage tasks and projects efficiently.
   - GitHub Actions (CI/CD)
 
 <details>
-    <summary>## 📂 Project Structure</summary>
+  <summary>📂 Project Structure</summary>
+
 ```text
 ├── .idea/
 │   └── .idea.TaskManagerBackend/
@@ -95,8 +117,7 @@ This project allows users to manage tasks and projects efficiently.
     ├── appsettings.Development.json
     ├── appsettings.json
     └── taskmanager.db
-```
-</details>
+<details>```
 
 ## 📌 Roadmap
 ### Phase 1 – Backend
